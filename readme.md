@@ -1,43 +1,35 @@
-# YOLO人物检测
+# YOLOv10 训练自己数据集
 
-基于YOLOv8视频人物检测实例，python版本3.9.7 supervision版本0.23.0
+基于YOLOv10训练自己数据集
 
-- python=3.9.7
-- supervision==0.23.0
-- yolov8s.pt
-- 其它依赖见 requirements.txt
 
 ## 安装
 
-- git clone git@github.com:rhfu/YOLO.git
-- cd YOLO/
-- conda create --name yolo python=3.9.7 && conda activate yolo
-- pip install -r requirements.txt
-- python main.py
-  
-## 目录说明
+- git clone git@github.com:THU-MIG/yolov10.git
+- cd yolov10/
 
-- video 为视频原文件及识别后文件
-- model 为模型文件
-- test 测试文件
+  
+## 使用说明
+
+- 复制 tran.py、test.py、mydata到yolov10根目录
+- tran.py 为训练文件
+- test.py 测试文件
 
 ## 演示
 
-- 球类
+- 目录结构
   
-![YOLO人物检测](https://github.com/rhfu/yolo/blob/main/video/result_ball.gif)
+![YOLO人物检测](https://github.com/rhfu/YOLOv10/blob/main/mydata/tmp/1.jpg)
 
-- 行人&汽车
+- 训练过程
+
+![YOLO人物检测](https://github.com/rhfu/YOLOv10/blob/main/mydata/tmp/2.jpg)
+
+- 训练过程
 
 ![YOLO人物检测](https://github.com/rhfu/yolo/blob/main/video/result_car.gif)
 
-- 人物
-
-![YOLO人物检测](https://github.com/rhfu/yolo/blob/main/video/result_man.gif)
 
 ## 附
 
-- supervision官方文档
-- https://supervision.roboflow.com/0.23.0/detection/annotators/
-- yolov8 模型下载
-- https://docs.ultralytics.com/tasks/detect/#models
+- https://blog.csdn.net/weixin_61961691/article/details/139436386
