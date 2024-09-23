@@ -1,0 +1,8 @@
+# Train/val
+train: /var/doc/yolov10/mydata/images/train
+val: /var/doc/yolov10/mydata/images/val
+test: # test images
+
+# Classes
+nc: 2  # number of classes
+names: ['helmet','nohelmet']
