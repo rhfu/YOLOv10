@@ -29,6 +29,10 @@
 
 ![YOLO人物检测](https://github.com/rhfu/YOLOv10/blob/main/mydata/train_v10/val_batch1_labels.jpg)
 
+- labelimg标注工具使用
+
+![YOLO人物检测](https://github.com/rhfu/YOLOv10/blob/main/mydata/tmp/3.jpg)
+
 ## 附
 
 - 参考：https://blog.csdn.net/weixin_61961691/article/details/139436386
