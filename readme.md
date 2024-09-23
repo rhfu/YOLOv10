@@ -9,8 +9,8 @@
 
 ## 使用说明
 
-- 复制 tran.py、test.py、mydata到yolov10根目录
-- python tran.py # 训练
+- 复制 train.py、test.py、mydata到yolov10根目录
+- python train.py # 训练
 - python test.py # 测试
 
 ## 演示
