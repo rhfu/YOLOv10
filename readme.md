@@ -31,4 +31,5 @@
 
 ## 附
 
-- https://blog.csdn.net/weixin_61961691/article/details/139436386
+- 参考：https://blog.csdn.net/weixin_61961691/article/details/139436386
+- 模型：YOLOv10系列下载地址 https://github.com/THU-MIG/yolov10/releases
